@@ -14,6 +14,21 @@ a {
     text-decoration: none;
 }
 
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1 !important;
+}
+
 
 /* typography */
 
@@ -84,12 +99,24 @@ a {
     background: #0E1317;
 }
 
+.bg-dark-3 {
+    background: #1B1B1B;
+}
+
 .bg-main {
     background: #EAF5FF;
 }
 
 .bg-main-2 {
     background: rgba(249, 250, 251, 1);
+}
+
+.bg-main-3 {
+    background: #F9F8FB;
+}
+
+.bg-main-3 {
+    background: #FCFCFC;
 }
 
 .w-fit-content {
@@ -191,7 +218,7 @@ a {
 }
 
 .main-header .navbar-toggler-icon {
-    background-image: url('icons/main-icons/burger-light.svg');
+    background-image: url('icons/main-icons/burger.svg');
     width: 1em;
     height: 1em;
 }
@@ -209,6 +236,10 @@ a {
 
 .icon-size-md {
     height: 60px;
+}
+
+.icon-size-sm {
+    height: 50px;
 }
 
 .card-hover,
@@ -274,12 +305,72 @@ a {
     right: 5%;
 }
 
+.main-header {
+    position: absolute;
+    top: 0;
+    z-index: 4;
+    width: 100%;
+}
+
+.logo {
+    width: 200px;
+}
+
+.main-header .navbar-collapse.show,
+.main-header .navbar-collapse.collapsing {
+    background: var(--color-corp);
+    padding-left: 20px;
+}
+
+.services h6 {
+    height: 45px;
+}
+
+.services .btn-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.project p {
+    position: absolute;
+    z-index: 2;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #717171;
+    background: #242424;
+    padding: 12px 20px;
+}
+
+.form-control::placeholder {
+    color: #717171;
+}
+
+@media(max-width: 1200px) {
+    .icon-size-xs {
+        height: 30px;
+    }
+}
+
 @media(max-width: 990px) {
     .w-lg-fit-content {
         width: 100%;
     }
     .h-lg-100vh {
         height: fit-content;
+    }
+    .banner-img {
+        height: 500px;
+    }
+    .services .btn-container {
+        bottom: 0;
+        top: unset;
+        right: 50%;
+        transform: translateX(50%);
     }
 }
 
@@ -298,5 +389,17 @@ a {
     .logo-position-2 {
         bottom: 2%;
         right: 2%;
+    }
+    .logo {
+        width: 100px;
+    }
+    .banner-img {
+        height: 450px;
+    }
+    .icon-size-sm {
+        height: 40px;
+    }
+    .icon-size-xs {
+        height: 25px;
     }
 }

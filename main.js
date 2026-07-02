@@ -12,9 +12,9 @@ $(document).ready(function() {
 
         let extraOptions = {};
 
-        if (slider.hasClass('standarts')) {
+        if (slider.hasClass('services')) {
             extraOptions = {
-                slidesToShow: 6.3,
+                slidesToShow: 3,
                 slidesToScroll: 1,
                 centerMode: false,
                 arrows: true,
@@ -23,21 +23,21 @@ $(document).ready(function() {
                 responsive: [{
                         breakpoint: 1200,
                         settings: {
-                            slidesToShow: 4.5,
+                            slidesToShow: 2.5,
                             slidesToScroll: 1,
                         }
                     },
                     {
                         breakpoint: 992,
                         settings: {
-                            slidesToShow: 4.3,
+                            slidesToShow: 2.3,
                             slidesToScroll: 1,
                         }
                     },
                     {
                         breakpoint: 576,
                         settings: {
-                            slidesToShow: 1.7,
+                            slidesToShow: 1,
                             slidesToScroll: 1,
                         }
                     },
