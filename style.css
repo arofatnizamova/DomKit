@@ -1,0 +1,302 @@
+:root {
+    --font-family-main: "Manrope", sans-serif;
+    --color-corp: #F26A21;
+    --color-corp-2: #0161CE;
+}
+
+body {
+    font-family: var(--font-family-main);
+    line-height: 1.2;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/* typography */
+
+.text-4xl {
+    font-size: clamp(2.125rem, 1.3rem + 4.125vw, 6.25rem);
+}
+
+.text-3xl {
+    font-size: clamp(1.5rem, 0.8rem + 3.5vw, 5rem);
+}
+
+.text-2xl {
+    font-size: clamp(1.875rem, 1.5rem + 1.875vw, 3.75rem);
+}
+
+.text-xl {
+    font-size: clamp(1.625rem, 1.325rem + 1.5vw, 3.125rem);
+}
+
+.text-lg {
+    font-size: clamp(1.5rem, 1.25rem + 1.25vw, 2.75rem);
+}
+
+.text-md {
+    font-size: clamp(1.125rem, 1rem + 0.625vw, 1.75rem);
+}
+
+.text-sm {
+    font-size: clamp(1rem, 0.925rem + 0.375vw, 1.375rem);
+}
+
+.text-xs {
+    font-size: clamp(0.875rem, 0.85rem + 0.125vw, 1rem);
+}
+
+.text-2xs {
+    font-size: clamp(0.75rem, 0.725rem + 0.125vw, 0.875rem);
+}
+
+
+/* utils */
+
+.text-corp {
+    color: var(--color-corp)
+}
+
+.text-corp-2 {
+    color: var(--color-corp-2)
+}
+
+.text-light-2 {
+    color: #FAFAFA;
+}
+
+.bg-corp {
+    background: var(--color-corp);
+}
+
+.bg-corp-2 {
+    background: var(--color-corp-2);
+}
+
+.bg-corp-2 {
+    background: var(--color-corp-2);
+}
+
+.bg-dark-2 {
+    background: #0E1317;
+}
+
+.bg-main {
+    background: #EAF5FF;
+}
+
+.bg-main-2 {
+    background: rgba(249, 250, 251, 1);
+}
+
+.w-fit-content {
+    width: fit-content;
+}
+
+.w-max-content {
+    width: max-content !important;
+}
+
+.w-lg-fit-content {
+    width: fit-content;
+}
+
+.position-md-absolute {
+    position: absolute;
+}
+
+.position-lg-absolute {
+    position: absolute;
+}
+
+.btn {
+    border-radius: 8px;
+    font-family: var(--font-family-2);
+    min-width: 250px;
+    padding: 10px 10px;
+    font-size: clamp(0.875rem, 0.85rem + 0.125vw, 1rem);
+}
+
+.btn-corp {
+    background: var(--color-corp);
+    color: white;
+}
+
+.btn-white {
+    background: white;
+    color: var(--color-corp);
+}
+
+.btn-outline-corp {
+    border: 1px solid var(--color-corp);
+}
+
+.btn-outline-white {
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-long {
+    min-width: 300px;
+}
+
+.rounded-sm-5 {
+    border-radius: 40px;
+}
+
+.fw-extralight {
+    font-weight: 200 !important;
+}
+
+.mt-custom {
+    margin-top: -40px;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.border-corp {
+    border-color: var(--color-corp) !important;
+}
+
+.border-corp-2 {
+    border-color: var(--color-corp-2) !important;
+}
+
+
+/* bootstrap components castomization */
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.main-header .nav-link {
+    color: white;
+}
+
+.main-header .nav-link:hover {
+    color: rgb(149, 149, 149);
+}
+
+.main-header .navbar-toggler-icon {
+    background-image: url('icons/main-icons/burger-light.svg');
+    width: 1em;
+    height: 1em;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+
+/* custom styles */
+
+.icon-size-md {
+    height: 60px;
+}
+
+.card-hover,
+.card-hover *,
+.card-hover-2,
+.card-hover * {
+    transition: all 0.3s ease;
+}
+
+.card-hover {
+    background: #121212;
+}
+
+.card-hover-2 {
+    background: white;
+}
+
+.card-hover:hover {
+    background: var(--color-corp);
+}
+
+.card-hover-2:hover {
+    background: var(--color-corp-2);
+}
+
+.card-hover-2:hover p {
+    color: white !important;
+}
+
+.card-hover:hover img,
+.card-hover-2:hover img {
+    filter: contrast(0%) brightness(2);
+}
+
+.h-lg-100vh {
+    height: 100vh;
+}
+
+.logo-width {
+    width: 300px;
+}
+
+.icon-box {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-position-1,
+.logo-position-2 {
+    height: 40px;
+}
+
+.logo-position-1 {
+    left: 5%;
+    top: 5%;
+}
+
+.logo-position-2 {
+    bottom: 5%;
+    right: 5%;
+}
+
+@media(max-width: 990px) {
+    .w-lg-fit-content {
+        width: 100%;
+    }
+    .h-lg-100vh {
+        height: fit-content;
+    }
+}
+
+@media(max-width: 576px) {
+    .logo-width {
+        width: 200px;
+    }
+    .logo-position-1,
+    .logo-position-2 {
+        height: 30px;
+    }
+    .logo-position-1 {
+        left: 2%;
+        top: 2%;
+    }
+    .logo-position-2 {
+        bottom: 2%;
+        right: 2%;
+    }
+}
