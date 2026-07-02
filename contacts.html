@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="bg-main-3 header">
+        <nav class="navbar navbar-expand-lg py-4 sticky-lg-top">
+            <div class="container ">
+                <div class="w-lg-fit-content d-flex justify-content-between align-items-center">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="icons/main-icons/logo-dark-2.svg" alt="" class="logo">
+                    </a>
+                    <div class="d-flex align-items-center d-xl-none gap-2">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav ms-auto gap-xl-5 ">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="private.html#about">О компании</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Услуги</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="private.html#partners">Партнеры </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="bg-main-3 position-relative">
+                <img src="images/bussines-page/2.png" alt="" class="img-bg-position position-absolute d-lg-block d-none h-100 object-fit-cover end-0 z-1 ">
+                <div class="container position-relative z-2">
+                    <div class="row gy-4 gy-lg-0 justify-content-between">
+                        <div class="col-lg-6">
+                            <div class="w-100 py-5 h-100">
+                                <h3 class="text-uppercase text-lg fw-bold text-lg-start text-center  w-fit-content mx-lg-0  mx-auto   mb-5"> Контакты</h3>
+                                <p class="text-corp-2 text-sm fw-medium">
+                                    Свяжитесь с нами удобным способом — ответим на ваши вопросы и поможем найти оптимальное решение
+                                </p>
+                                <form action="" class="w-100 light">
+                                    <div class="row gx-0 gx-lg-3 pt-lg-5 w-100 gy-4">
+                                        <div class="col-lg-6">
+                                            <div class="w-100">
+                                                <input type="text" class="form-control" placeholder="Имя">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="w-100">
+                                                <input type="text" class="form-control" placeholder="Компания">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="w-100">
+                                                <input type="tel" class="form-control" placeholder="+998 (__) ___-__-__">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="w-100">
+                                                <input type="email" class="form-control" placeholder="E-mail">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="w-100 h-100 d-flex flex-column justify-content-between">
+                                                <input type="text" class="form-control" placeholder="Тип проекта">
+                                                <button class="btn btn-corp-2 d-lg-block d-none" type="submit">
+                                                    Отправить заявку
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="w-100">
+                                                <textarea class="form-control" rows="5" placeholder="Комментарий"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-corp-2 d-lg-none mt-4 d-block w-100" type="submit">
+                                        Отправить заявку
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="w-100 h-100 bg-white d-lg-flex d-none align-items-center rounded-3 px-lg-5 px-4 py-3">
+                                <div class="">
+                                    <div class="d-flex align-items-center gap-3 mb-4">
+                                        <span class="bg-corp-2 p-3 rounded-circle">
+                                            <img src="icons/contacts/1.svg" alt="" class="icon-size-xs">
+                                        </span>
+                                        <div class="d-flex flex-column gap-2 text-sm opacity-75 text-dark fw-medium">
+                                            <a href="tel:+998952402606"> +998 95 240 26 06</a>
+                                            <a href="tel:+998771237755"> +998 77 123 77 55</a>
+                                            <a href="tel:+998990902855"> +998 99 090 28 55</a>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-3 mb-4">
+                                        <span class="bg-corp-2 p-3 rounded-circle">
+                                            <img src="icons/contacts/2.svg" alt="" class="icon-size-xs">
+                                        </span>
+                                        <a href="mailto:info@domkit.uz" class="text-sm opacity-75 text-dark fw-medium">  info@domkit.uz</a>
+                                    </div>
+                                    <div class="d-flex align-items-center border-bottom pb-4 border-dark  gap-3 mb-4">
+                                        <span class="bg-corp-2 p-3 rounded-circle">
+                                            <img src="icons/contacts/3.svg" alt="" class="icon-size-xs">
+                                        </span>
+                                        <p class="text-sm mb-0 opacity-75 text-dark fw-medium"> Qorgontepa MFY, Shayxzoda ko chasi, 28a-uy
+                                        </p>
+                                    </div>
+                                    <p class="text-corp-2 text-center text-md fw-medium">Наши соц.сети</p>
+                                    <div class="d-flex align-items-center mt-4 gap-3 justify-content-center">
+                                        <a href="#" class="bg-corp-2 p-3 rounded-circle">
+                                            <img src="icons/contacts/4.svg" alt="" class="icon-size-xs">
+                                        </a>
+                                        <a href="#" class="bg-corp-2 p-3 rounded-circle">
+                                            <img src="icons/contacts/5.svg" alt="" class="icon-size-xs">
+                                        </a>
+                                        <a href="#" class="bg-corp-2 p-3 rounded-circle">
+                                            <img src="icons/contacts/6.svg" alt="" class="icon-size-xs">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white">
+                    <div class="container">
+                        <div class="w-100 h-100 bg-white justify-content-center d-lg-none d-flex align-items-center rounded-3 px-lg-5 px-4 py-5">
+                            <div class="">
+                                <h4 class="text-corp text-md text-center mb-5">
+                                    Вы можете стязателься с нами через
+                                </h4>
+                                <div class="d-flex align-items-center gap-3 mb-4">
+                                    <span class="bg-corp p-3 rounded-circle">
+                                        <img src="icons/contacts/1.svg" alt="" class="icon-size-xs">
+                                    </span>
+                                    <div class="d-flex flex-column gap-2 text-sm opacity-75 text-dark fw-medium">
+                                        <a href="tel:+998952402606"> +998 95 240 26 06</a>
+                                        <a href="tel:+998771237755"> +998 77 123 77 55</a>
+                                        <a href="tel:+998990902855"> +998 99 090 28 55</a>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-3 mb-4">
+                                    <span class="bg-corp p-3 rounded-circle">
+                                        <img src="icons/contacts/2.svg" alt="" class="icon-size-xs">
+                                    </span>
+                                    <a href="mailto:info@domkit.uz" class="text-sm opacity-75 text-dark fw-medium">  info@domkit.uz</a>
+                                </div>
+                                <div class="d-flex align-items-center border-bottom pb-4 border-dark  gap-3 mb-4">
+                                    <span class="bg-corp p-3 rounded-circle">
+                                        <img src="icons/contacts/3.svg" alt="" class="icon-size-xs">
+                                    </span>
+                                    <p class="text-sm mb-0 opacity-75 text-dark fw-medium"> Qorgontepa MFY, Shayxzoda ko chasi, 28a-uy
+                                    </p>
+                                </div>
+                                <p class="text-corp text-center text-md fw-medium">Наши соц.сети</p>
+                                <div class="d-flex align-items-center mt-4 gap-3 justify-content-center">
+                                    <a href="#" class="bg-corp p-3 rounded-circle">
+                                        <img src="icons/contacts/4.svg" alt="" class="icon-size-xs">
+                                    </a>
+                                    <a href="#" class="bg-corp p-3 rounded-circle">
+                                        <img src="icons/contacts/5.svg" alt="" class="icon-size-xs">
+                                    </a>
+                                    <a href="#" class="bg-corp p-3 rounded-circle">
+                                        <img src="icons/contacts/6.svg" alt="" class="icon-size-xs">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="images/private-page/map.png" alt="" class="img-fluid w-100">
+        </section>
+    </main>
+    <footer class="py-5   position-relative">
+        <div class="container">
+            <div class="row gy-4 ">
+                <div class="col-lg-2 col-6">
+                    <div class="w-100 h-100">
+                        <img src="icons/main-icons/footer-logo.svg" alt="" class="img-fluid footer-logo">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="w-100">
+                        <p class="text-corp-2 text-uppercase fw-bold text-sm">
+                            ССЫЛКИ
+                        </p>
+                        <ul class="list-unstyled text-xs fw-light mb-0 ">
+                            <li class="mb-3">
+                                <a href="index.html">
+                                    Главная
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="index.html#about">
+                                    О компании
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="services.html">
+                                    Услуги
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="index.html#partners">
+                                    Партнеры
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="contacts.html">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="w-100">
+                        <p class="text-corp-2 text-uppercase fw-bold text-sm">
+                            УСЛУГИ
+                        </p>
+                        <ul class="list-unstyled text-xs fw-light mb-0 ">
+                            <li class="mb-3">
+                                <a href="services.html">
+                                    Создание цифровой инфраструктуры на автозаправочных станциях
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="services.html">
+                                    Создание цифровой инфраструктуры для группы компаний
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="services.html">
+                                    Создание цифровой инфраструктуры в банке
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="services.html">
+                                    Создание цифровой инфраструктуры на заводе по производству воды
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="services.html">
+                                    Внедрение современных систем “умного дома”
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="services.html">
+                                    Установка светодиодных экранов и цифровых визуальных систем
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="services.html">
+                                    Комплексные решения для частных домов
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-lg-6">
+                    <div class="w-100">
+                        <p class="text-corp-2 text-uppercase fw-bold text-sm">
+                            КОНТАКТЫ
+                        </p>
+                        <ul class="list-unstyled text-xs text-dirt-2 fw-medium mb-0">
+                            <li class="mb-3 d-flex  gap-2">
+                                <i class="bi bi-telephone text-corp-2 fs-5"></i>
+                                <div class="d-flex gap-2 flex-column">
+                                    <a href="tel:+998952402606" class="">
+                                        <span>+998 95 240 26 06</span>
+                                    </a>
+                                    <a href="tel:+998771237755" class="">
+                                        <span>+998771237755</span>
+                                    </a>
+                                    <a href="tel:+998990902855" class="">
+                                        <span>+998990902855</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <a href="mailto:info@domkit.uz" class="d-flex gap-2 align-items-center ">
+                                    <i class="bi bi-envelope fs-5 text-corp-2"></i>
+                                    <span>info@domkit.uz</span>
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <address class="d-flex gap-2 align-items-center ">
+                                    <i class="bi bi-geo-alt fs-5 text-corp-2"></i>
+                                    <span>Qorgontepa MFY,
+                                        Shayxzoda ko chasi,
+                                        28a-uy</span>
+                                </address>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
+    <script src="https://kit.fontawesome.com/f817facf9f.js " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+    <script src="main.js "></script>
+</body>
+
+</html>

@@ -107,6 +107,10 @@ h6 {
     background: #EAF5FF;
 }
 
+.bg-blue-light {
+    background: #E5F7FF;
+}
+
 .bg-main-2 {
     background: rgba(249, 250, 251, 1);
 }
@@ -152,6 +156,11 @@ h6 {
     color: white;
 }
 
+.btn-corp-2 {
+    background: var(--color-corp-2);
+    color: white;
+}
+
 .btn-white {
     background: white;
     color: var(--color-corp);
@@ -180,6 +189,10 @@ h6 {
 
 .mt-custom {
     margin-top: -40px;
+}
+
+.w-25 {
+    width: 25%;
 }
 
 .w-40 {
@@ -318,7 +331,7 @@ h6 {
 
 .main-header .navbar-collapse.show,
 .main-header .navbar-collapse.collapsing {
-    background: var(--color-corp);
+    background: white;
     padding-left: 20px;
 }
 
@@ -346,8 +359,21 @@ h6 {
     padding: 12px 20px;
 }
 
+.light .form-control {
+    border: 1px solid #DDE8F0;
+    background: #FDFDFD;
+}
+
 .form-control::placeholder {
     color: #717171;
+}
+
+.light .form-control::placeholder {
+    color: #A8A8A8;
+}
+
+.header .nav-link {
+    color: black !important;
 }
 
 @media(max-width: 1200px) {
