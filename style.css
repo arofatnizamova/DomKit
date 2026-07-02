@@ -376,6 +376,10 @@ h6 {
     color: black !important;
 }
 
+footer {
+    background: #F0F0F0;
+}
+
 @media(max-width: 1200px) {
     .icon-size-xs {
         height: 30px;
@@ -427,5 +431,8 @@ h6 {
     }
     .icon-size-xs {
         height: 25px;
+    }
+    .h-sm-250 {
+        height: 250px;
     }
 }
