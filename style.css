@@ -237,6 +237,12 @@ h6 {
     height: 1em;
 }
 
+.header .navbar-toggler-icon {
+    background-image: url('icons/main-icons/burger-dark.svg');
+    width: 1em;
+    height: 1em;
+}
+
 .navbar-toggler {
     border: none;
 }
@@ -332,6 +338,12 @@ h6 {
 
 .main-header .navbar-collapse.show,
 .main-header .navbar-collapse.collapsing {
+    background: black;
+    padding-left: 20px;
+}
+
+.main-header.header .navbar-collapse.show,
+.main-header.header .navbar-collapse.collapsing {
     background: white;
     padding-left: 20px;
 }
@@ -484,6 +496,14 @@ footer {
     height: 0.5em;
 }
 
+.services img {
+    height: 270px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
 @media(max-width: 1200px) {
     .icon-size-xs {
         height: 30px;
@@ -508,6 +528,30 @@ footer {
         top: unset;
         right: 50%;
         transform: translateX(50%);
+    }
+
+    .overlay::before,
+    .overlay-light::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+    }
+
+    .overlay::before {
+        background: rgba(0, 0, 0, 0.55);
+    }
+
+    .overlay-light::before {
+        background: rgba(255, 255, 255, 0.62);
+    }
+
+    .services img {
+        height: 200px;
+
     }
 }
 
