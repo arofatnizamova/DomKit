@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="bg-main-3 header">
+        <nav class="navbar navbar-expand-lg py-4 sticky-lg-top">
+            <div class="container ">
+                <div class="w-lg-fit-content d-flex justify-content-between align-items-center">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="icons/main-icons/logo-gray.svg" alt="" class="logo">
+                    </a>
+                    <div class="d-flex align-items-center d-xl-none gap-2">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav ms-auto gap-xl-5 ">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="private.html#about">О компании</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Услуги</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="private.html#partners">Партнеры </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="position-relative py-5 bg-main-3">
+
+            <div class="container">
+                <div class="row mb-5 justify-content-between">
+                    <div class="col-lg-4">
+                        <h3 class="text-lg fw-bold">
+                            Каталог
+                        </h3>
+                    </div>
+                    <div class="col-lg-3">
+                        <form action="" class="light w-100">
+                            <div class="position-relative search">
+                                <input type="text" class="form-control" placeholder="Поиск">
+                                <i class="bi bi-search  position-absolute"></i>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row gy-4 ">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <a href="catalog-item.html" class="d-flex flex-column w-100 h-100 card-item p-3 d-block rounded-4">
+                            <div class="card-img-bg d-flex align-items-center justify-content-center p-3">
+                                <img src="images/catalog-page/1.png" alt="" class="">
+                            </div>
+                            <div class="d-flex justify-content-between gap-2 align-items-center">
+                                <p class="fw-semibold text-xs text-corp-2 mt-3">
+                                    TP-Link TD-W8960N
+                                </p>
+                            </div>
+                            <span class="opacity-75 text-xs">Wi-Fi Роутер</span>
+                            <span class="text-2xs status-true px-2 rounded-5 w-fit-content my-2">В наличии</span>
+                            <span class="fw-bold text-xs">479 000 сум</span>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <a href="catalog-item.html" class="d-flex flex-column w-100 h-100 card-item p-3 d-block rounded-4">
+                            <div class="card-img-bg d-flex align-items-center justify-content-center p-3">
+                                <img src="images/catalog-page/2.png" alt="" class="">
+                            </div>
+                            <div class="d-flex justify-content-between gap-2 align-items-center">
+                                <p class="fw-semibold text-xs text-corp-2 mt-3">
+                                    INTELLIGENT
+                                </p>
+                                <span class="text-2xs">
+                                    Арт. SNR-UPS
+                                </span>
+                            </div>
+                            <span class="opacity-75 text-xs">Источник бесперебойного питания</span>
+                            <span class="text-2xs status-true px-2 rounded-5 w-fit-content my-2">В наличии</span>
+                            <span class="fw-bold text-xs">479 000 сум</span>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <a href="catalog-item.html" class="d-flex flex-column w-100 h-100 card-item p-3 d-block rounded-4">
+                            <div class="card-img-bg d-flex align-items-center justify-content-center p-3">
+                                <img src="images/catalog-page/3.png" alt="" class="">
+                            </div>
+                            <div class="d-flex justify-content-between gap-2 align-items-center">
+                                <p class="fw-semibold text-xs text-corp-2 mt-3">
+                                    Hikvision DS-2DE5432
+                                </p>
+                                <span class="text-2xs">
+                                    Арт. SNR-UPS
+                                </span>
+                            </div>
+                            <span class="opacity-75 text-xs">Камера видеонаблюдения</span>
+                            <span class="text-2xs status-true px-2 rounded-5 w-fit-content my-2">В наличии</span>
+                            <span class="fw-bold text-xs">479 000 сум</span>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <a href="catalog-item.html" class="d-flex flex-column w-100 h-100 card-item p-3 d-block rounded-4">
+                            <div class="card-img-bg d-flex align-items-center justify-content-center p-3">
+                                <img src="images/catalog-page/4.png" alt="" class="">
+                            </div>
+                            <div class="d-flex justify-content-between gap-2 align-items-center">
+                                <p class="fw-semibold text-xs text-corp-2 mt-3">
+                                    TP-Link TD-W8960N
+                                </p>
+                            </div>
+                            <span class="opacity-75 text-xs">Wi-Fi Роутер</span>
+                            <span class="text-2xs status-true px-2 rounded-5 w-fit-content my-2">В наличии</span>
+                            <span class="fw-bold text-xs">479 000 сум</span>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <a href="catalog-item.html" class="d-flex flex-column w-100 h-100 card-item p-3 d-block rounded-4">
+                            <div class="card-img-bg d-flex align-items-center justify-content-center p-3">
+                                <img src="images/catalog-page/1.png" alt="" class="">
+                            </div>
+                            <div class="d-flex justify-content-between gap-2 align-items-center">
+                                <p class="fw-semibold text-xs text-corp-2 mt-3">
+                                    TP-Link TD-W8960N
+                                </p>
+                            </div>
+                            <span class="opacity-75 text-xs">Wi-Fi Роутер</span>
+                            <span class="text-2xs status-true px-2 rounded-5 w-fit-content my-2">В наличии</span>
+                            <span class="fw-bold text-xs">479 000 сум</span>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <a href="catalog-item.html" class="d-flex flex-column w-100 h-100 card-item p-3 d-block rounded-4">
+                            <div class="card-img-bg d-flex align-items-center justify-content-center p-3">
+                                <img src="images/catalog-page/2.png" alt="" class="">
+                            </div>
+                            <div class="d-flex justify-content-between gap-2 align-items-center">
+                                <p class="fw-semibold text-xs text-corp-2 mt-3">
+                                    INTELLIGENT
+                                </p>
+                                <span class="text-2xs">
+                                    Арт. SNR-UPS
+                                </span>
+                            </div>
+                            <span class="opacity-75 text-xs">Источник бесперебойного питания</span>
+                            <span class="text-2xs status-true px-2 rounded-5 w-fit-content my-2">В наличии</span>
+                            <span class="fw-bold text-xs">479 000 сум</span>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <a href="catalog-item.html" class="d-flex flex-column w-100 h-100 card-item p-3 d-block rounded-4">
+                            <div class="card-img-bg d-flex align-items-center justify-content-center p-3">
+                                <img src="images/catalog-page/3.png" alt="" class="">
+                            </div>
+                            <div class="d-flex justify-content-between gap-2 align-items-center">
+                                <p class="fw-semibold text-xs text-corp-2 mt-3">
+                                    Hikvision DS-2DE5432
+                                </p>
+                                <span class="text-2xs">
+                                    Арт. SNR-UPS
+                                </span>
+                            </div>
+                            <span class="opacity-75 text-xs">Камера видеонаблюдения</span>
+                            <span class="text-2xs status-true px-2 rounded-5 w-fit-content my-2">В наличии</span>
+                            <span class="fw-bold text-xs">479 000 сум</span>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <a href="catalog-item.html" class="d-flex flex-column w-100 h-100 card-item p-3 d-block rounded-4">
+                            <div class="card-img-bg d-flex align-items-center justify-content-center p-3">
+                                <img src="images/catalog-page/4.png" alt="" class="">
+                            </div>
+                            <div class="d-flex justify-content-between gap-2 align-items-center">
+                                <p class="fw-semibold text-xs text-corp-2 mt-3">
+                                    TP-Link TD-W8960N
+                                </p>
+                            </div>
+                            <span class="opacity-75 text-xs">Wi-Fi Роутер</span>
+                            <span class="text-2xs status-true px-2 rounded-5 w-fit-content my-2">В наличии</span>
+                            <span class="fw-bold text-xs">479 000 сум</span>
+                        </a>
+                    </div>
+                </div>
+                <a href="#" class="d-block text-center mt-5 hover-icon">
+                    Показать еще <i class="bi bi-arrow-right d-inline-block"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="py-5   position-relative">
+        <div class="container">
+            <div class="row gy-4 ">
+                <div class="col-lg-2 col-6">
+                    <div class="w-100 h-100">
+                        <img src="icons/main-icons/footer-logo.svg" alt="" class="img-fluid footer-logo">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="w-100">
+                        <p class="text-corp text-uppercase fw-bold text-sm">
+                            ССЫЛКИ
+                        </p>
+                        <ul class="list-unstyled text-xs fw-light mb-0 ">
+                            <li class="mb-3">
+                                <a href="index.html">
+                                    Главная
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="index.html#about">
+                                    О компании
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="services.html">
+                                    Услуги
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="index.html#partners">
+                                    Партнеры
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="contacts.html">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="w-100">
+                        <p class="text-corp text-uppercase fw-bold text-sm">
+                            УСЛУГИ
+                        </p>
+                        <ul class="list-unstyled text-xs fw-light mb-0 ">
+                            <li class="mb-3">
+                                <a href="services.html">
+                                    Создание цифровой инфраструктуры на автозаправочных станциях
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="services.html">
+                                    Создание цифровой инфраструктуры для группы компаний
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="services.html">
+                                    Создание цифровой инфраструктуры в банке
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="services.html">
+                                    Создание цифровой инфраструктуры на заводе по производству воды
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="services.html">
+                                    Внедрение современных систем “умного дома”
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="services.html">
+                                    Установка светодиодных экранов и цифровых визуальных систем
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="services.html">
+                                    Комплексные решения для частных домов
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-lg-6">
+                    <div class="w-100">
+                        <p class="text-corp text-uppercase fw-bold text-sm">
+                            КОНТАКТЫ
+                        </p>
+                        <ul class="list-unstyled text-xs text-dirt-2 fw-medium mb-0">
+                            <li class="mb-3 d-flex  gap-2">
+                                <i class="bi bi-telephone text-corp-2 fs-5"></i>
+                                <div class="d-flex gap-2 flex-column">
+                                    <a href="tel:+998952402606" class="">
+                                        <span>+998 95 240 26 06</span>
+                                    </a>
+                                    <a href="tel:+998771237755" class="">
+                                        <span>+998771237755</span>
+                                    </a>
+                                    <a href="tel:+998990902855" class="">
+                                        <span>+998990902855</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="mb-3">
+                                <a href="mailto:info@domkit.uz" class="d-flex gap-2 align-items-center ">
+                                    <i class="bi bi-envelope fs-5 text-corp-2"></i>
+                                    <span>info@domkit.uz</span>
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <address class="d-flex gap-2 align-items-center ">
+                                    <i class="bi bi-geo-alt fs-5 text-corp-2"></i>
+                                    <span>Qorgontepa MFY,
+                                        Shayxzoda ko chasi,
+                                        28a-uy</span>
+                                </address>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
+    <script src="https://kit.fontawesome.com/f817facf9f.js " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>

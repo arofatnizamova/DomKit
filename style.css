@@ -119,9 +119,10 @@ h6 {
     background: #F9F8FB;
 }
 
-.bg-main-3 {
+.bg-main-4 {
     background: #FCFCFC;
 }
+
 
 .w-fit-content {
     width: fit-content;
@@ -376,8 +377,111 @@ h6 {
     color: black !important;
 }
 
+.card-item {
+    background: #FDFDFD;
+    box-shadow: 0 4px 17px 0 rgba(216, 216, 216, 0.25);
+    transition: all 0.3s ease;
+}
+
+.card-item * {
+    transition: all 0.3s ease;
+}
+
+.card-img-bg {
+    background: #F7F7F7;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-img-bg img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+}
+
 footer {
     background: #F0F0F0;
+}
+
+.status-true {
+    color: #19AE39;
+    background: #CEF0D5;
+}
+
+.card-item:hover img {
+    transform: scale(1.1);
+}
+
+.card-item:hover {
+    transform: translateY(-20px);
+}
+
+.hover-icon,
+.hover-icon i {
+    transition: all 0.3s ease;
+}
+
+.hover-icon:hover i {
+    transform: translateX(20px);
+}
+
+.search i {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    color: #A8A8A8;
+}
+
+.swiper-main {
+    border: 1px solid #DDE8F0;
+    height: 350px;
+}
+
+.swiper-main img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.swiper-thumbs .swiper-slide {
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid #DDE8F0;
+    border-radius: 5px;
+    padding: 10px;
+    height: 100px;
+}
+
+.swiper-thumbs .swiper-slide img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.swiper-thumbs .swiper-slide-thumb-active {
+    opacity: 1;
+    border: 1px solid #DDE8F0;
+}
+
+.dots {
+    flex: 1;
+    border-bottom: 1px dotted #999;
+    margin: 0 8px;
+    height: 0.5em;
 }
 
 @media(max-width: 1200px) {
@@ -390,12 +494,15 @@ footer {
     .w-lg-fit-content {
         width: 100%;
     }
+
     .h-lg-100vh {
         height: fit-content;
     }
+
     .banner-img {
         height: 500px;
     }
+
     .services .btn-container {
         bottom: 0;
         top: unset;
@@ -408,31 +515,47 @@ footer {
     .logo-width {
         width: 200px;
     }
+
     .logo-position-1,
     .logo-position-2 {
         height: 30px;
     }
+
     .logo-position-1 {
         left: 2%;
         top: 2%;
     }
+
     .logo-position-2 {
         bottom: 2%;
         right: 2%;
     }
+
     .logo {
         width: 100px;
     }
+
     .banner-img {
         height: 450px;
     }
+
     .icon-size-sm {
         height: 40px;
     }
+
     .icon-size-xs {
         height: 25px;
     }
+
     .h-sm-250 {
         height: 250px;
+    }
+
+    .swiper-main {
+        height: 250px;
+    }
+
+    .swiper-thumbs .swiper-slide {
+        height: 70px;
     }
 }

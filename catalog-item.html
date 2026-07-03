@@ -22,7 +22,7 @@
             <div class="container ">
                 <div class="w-lg-fit-content d-flex justify-content-between align-items-center">
                     <a class="navbar-brand" href="index.html">
-                        <img src="icons/main-icons/logo-dark-2.svg" alt="" class="logo">
+                        <img src="icons/main-icons/logo-gray.svg" alt="" class="logo">
                     </a>
                     <div class="d-flex align-items-center d-xl-none gap-2">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -56,110 +56,162 @@
     </header>
 
     <main>
-        <section class="position-relative py-5">
-            <img src="images/servises-page/1.png" alt="" class="d-lg-block h-100 d-none position-absolute top-0 w-40 object-fit-cover start-0">
+        <section class="py-5 bg-main-3">
             <div class="container">
-                <div class="row justify-content-end">
-                    <div class="col-lg-7">
-                        <div class="w-100">
-                            <h3 class="fw-semibold text-lg mb-5 text-lg-start text-center">
-                                Создание цифровой инфраструктуры
-                                <span class="text-corp-2"> <br>на автозаправочных станциях</span>
+                <div class="row gy-4 mb-5 justify-content-between">
+                    <div class="col-lg-4">
+                        <h3 class="text-lg fw-bold">
+                            Каталог
+                        </h3>
+                    </div>
+                    <div class="col-lg-3">
+                        <form action="" class="light w-100">
+                            <div class="position-relative search">
+                                <input type="text" class="form-control" placeholder="Поиск">
+                                <i class="bi bi-search  position-absolute"></i>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row gy-4">
+                    <div class="col-lg-6">
+                        <div class="w-100 h-100">
+                            <div class="swiper swiper-main  p-3 rounded-3">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="images/catalog-page/slider/1.png" class="img-fluid rounded-1 d-block mx-auto py-5" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/catalog-page/slider/2.png" class="img-fluid rounded-1 d-block mx-auto py-5" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/catalog-page/slider/4.png" class="img-fluid rounded-1 d-block mx-auto py-5" alt=""></div>
+                                </div>
+                            </div>
+
+                            <!-- Слайдер миниатюр -->
+                            <div class="swiper swiper-thumbs mt-4">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="images/catalog-page/slider/2.png" class="img-fluid" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/catalog-page/slider/3.png" class="img-fluid" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/catalog-page/slider/4.png" class="img-fluid" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="w-100 h-100">
+                            <h3 class="text-md fw-semibold mb-5">
+                                Основные характеристики
                             </h3>
-                            <img src="images/servises-page/1.png" alt="" class="d-lg-none img-fluid rounded-4 w-100 my-3 object-fit-cover h-sm-250">
-                            <ul class="list-unstyled text-sm">
-                                <li class="mb-3 d-flex align-items-center gap-3">
-                                    <i class="bi bi-check-circle-fill text-corp-2 text-xs"></i>
-                                    <p class="mb-0 text-dark">
-                                        Структурированная кабельная система
-                                    </p>
-                                </li>
-                                <li class="mb-3 d-flex align-items-center gap-3">
-                                    <i class="bi bi-check-circle-fill text-corp-2 text-xs"></i>
-                                    <p class="mb-0 text-dark">
-                                        Система передачи данных
-                                    </p>
-                                </li>
-                                <li class="mb-3 d-flex align-items-center gap-3">
-                                    <i class="bi bi-check-circle-fill text-corp-2 text-xs"></i>
-                                    <p class="mb-0 text-dark">
-                                        Система бесперебойного электропитания
-                                    </p>
-                                </li>
-                                <li class="mb-3 d-flex align-items-center gap-3">
-                                    <i class="bi bi-check-circle-fill text-corp-2 text-xs"></i>
-                                    <p class="mb-0 text-dark">
-                                        Беспроводная локальная сеть (Wi-Fi)
-                                    </p>
-                                </li>
-                                <li class="mb-3 d-flex align-items-center gap-3">
-                                    <i class="bi bi-check-circle-fill text-corp-2 text-xs"></i>
-                                    <p class="mb-0 text-dark">
-                                        Система телефонной связи (IP телефония)
-                                    </p>
-                                </li>
-                                <li class="mb-3 d-flex align-items-center gap-3">
-                                    <i class="bi bi-check-circle-fill text-corp-2 text-xs"></i>
-                                    <p class="mb-0 text-dark">
-                                        Волоконно-оптические линии связи
-                                    </p>
-                                </li>
-                                <li class="mb-3 d-flex align-items-center gap-3">
-                                    <i class="bi bi-check-circle-fill text-corp-2 text-xs"></i>
-                                    <p class="mb-0 text-dark">
-                                        Система охранного видеонаблюдения
-                                    </p>
-                                </li>
-                                <li class="mb-3 d-flex align-items-center gap-3">
-                                    <i class="bi bi-check-circle-fill text-corp-2 text-xs"></i>
-                                    <p class="mb-0 text-dark">
-                                        Система контроля управления доступом
-                                    </p>
-                                </li>
-                                <li class=" d-flex align-items-center gap-3">
-                                    <i class="bi bi-check-circle-fill text-corp-2 text-xs"></i>
-                                    <p class="mb-0 text-dark">
-                                        Система пожарной сигнализации
-                                    </p>
-                                </li>
-                            </ul>
+                            <div class="d-flex align-items-center opacity-75 fw-light gap-3 text-xs mb-3">
+                                <span>Бренд</span>
+                                <span class="dots"></span>
+                                <span>TP-Link</span>
+                            </div>
+                            <div class="d-flex align-items-center opacity-75 fw-light gap-3 text-xs mb-3">
+                                <span>Стандарт беспроводной связи</span>
+                                <span class="dots"></span>
+                                <span>802.11n, частота 2.4 ГГц</span>
+                            </div>
+                            <div class="d-flex align-items-center opacity-75 fw-light gap-3 text-xs mb-3">
+                                <span>Количество внешних антенн</span>
+                                <span class="dots"></span>
+                                <span>2</span>
+                            </div>
+                            <div class="d-flex align-items-center opacity-75 fw-light gap-3 text-xs mb-3">
+                                <span>Скорость портов</span>
+                                <span class="dots"></span>
+                                <span>100 Мбит/с</span>
+                            </div>
+                            <div class="d-flex align-items-center opacity-75 fw-light gap-3 text-xs mb-3">
+                                <span>Интерфейс подключения</span>
+                                <span class="dots"></span>
+                                <span>WEB</span>
+                            </div>
+                            <div class="d-flex align-items-center opacity-75 fw-light gap-3 text-xs mb-3">
+                                <span>Страна производитель</span>
+                                <span class="dots"></span>
+                                <span>Китай</span>
+                            </div>
+                            <div class="d-flex align-items-center opacity-75 fw-light gap-3 text-xs">
+                                <span>Мощность передатчика</span>
+                                <span class="dots"></span>
+                                <span>20 dBM</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="py-5">
+        <section class="position-relative py-5 bg-main-3">
+
             <div class="container">
-                <h3 class="text-uppercase text-lg fw-semibold text-corp-2 text-lg-start text-center border-bottom w-fit-content mx-lg-0 mx-auto border-corp-2 border-2 pb-2 mb-5">СМОТРИТЕ ТАК ЖЕ</h3>
-                <div class="row pt-lg-5 gy-4">
-                    <div class="col-lg-6">
-                        <div class="w-100 h-100">
-                            <div class="position-relative project">
-                                <img src="images/private-page/projects/1.png" alt="" class="img-fluid">
-                                <p class="mb-0 text-sm text-white">
-                                    Создание цифровой инфраструктуры на автозаправочных станциях
+                <h3 class="text-uppercase text-md text-corp-2 fw-semibold text-lg-start text-center border-bottom w-fit-content mx-lg-0 mx-auto border-corp-2 border-2 pb-2 mb-5"> РЕКОМЕНДУЕМЫЕ ТОВАРЫ
+                </h3>
+                <div class="row gy-4 ">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <a href="catalog-item.html" class="d-flex flex-column w-100 h-100 card-item p-3 d-block rounded-4">
+                            <div class="card-img-bg d-flex align-items-center justify-content-center p-3">
+                                <img src="images/catalog-page/1.png" alt="" class="">
+                            </div>
+                            <div class="d-flex justify-content-between gap-2 align-items-center">
+                                <p class="fw-semibold text-xs text-corp-2 mt-3">
+                                    TP-Link TD-W8960N
                                 </p>
                             </div>
-                            <a href="services.html" class="text-sm text-corp-2 ms-3 mt-3 d-block">
-                                <span>Подробнее</span> <i class="bi bi-arrow-right"></i>
-                            </a>
-                        </div>
+                            <span class="opacity-75 text-xs">Wi-Fi Роутер</span>
+                            <span class="text-2xs status-true px-2 rounded-5 w-fit-content my-2">В наличии</span>
+                            <span class="fw-bold text-xs">479 000 сум</span>
+                        </a>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="w-100 h-100">
-                            <div class="position-relative project">
-                                <img src="images/private-page/projects/2.png" alt="" class="img-fluid">
-                                <p class="mb-0 text-sm text-white">
-                                    Создание цифровой инфраструктуры на автозаправочных станциях
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <a href="catalog-item.html" class="d-flex flex-column w-100 h-100 card-item p-3 d-block rounded-4">
+                            <div class="card-img-bg d-flex align-items-center justify-content-center p-3">
+                                <img src="images/catalog-page/2.png" alt="" class="">
+                            </div>
+                            <div class="d-flex justify-content-between gap-2 align-items-center">
+                                <p class="fw-semibold text-xs text-corp-2 mt-3">
+                                    INTELLIGENT
+                                </p>
+                                <span class="text-2xs">
+                                    Арт. SNR-UPS
+                                </span>
+                            </div>
+                            <span class="opacity-75 text-xs">Источник бесперебойного питания</span>
+                            <span class="text-2xs status-true px-2 rounded-5 w-fit-content my-2">В наличии</span>
+                            <span class="fw-bold text-xs">479 000 сум</span>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <a href="catalog-item.html" class="d-flex flex-column w-100 h-100 card-item p-3 d-block rounded-4">
+                            <div class="card-img-bg d-flex align-items-center justify-content-center p-3">
+                                <img src="images/catalog-page/3.png" alt="" class="">
+                            </div>
+                            <div class="d-flex justify-content-between gap-2 align-items-center">
+                                <p class="fw-semibold text-xs text-corp-2 mt-3">
+                                    Hikvision DS-2DE5432
+                                </p>
+                                <span class="text-2xs">
+                                    Арт. SNR-UPS
+                                </span>
+                            </div>
+                            <span class="opacity-75 text-xs">Камера видеонаблюдения</span>
+                            <span class="text-2xs status-true px-2 rounded-5 w-fit-content my-2">В наличии</span>
+                            <span class="fw-bold text-xs">479 000 сум</span>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <a href="catalog-item.html" class="d-flex flex-column w-100 h-100 card-item p-3 d-block rounded-4">
+                            <div class="card-img-bg d-flex align-items-center justify-content-center p-3">
+                                <img src="images/catalog-page/4.png" alt="" class="">
+                            </div>
+                            <div class="d-flex justify-content-between gap-2 align-items-center">
+                                <p class="fw-semibold text-xs text-corp-2 mt-3">
+                                    TP-Link TD-W8960N
                                 </p>
                             </div>
-                            <a href="services.html" class="text-sm text-corp-2 ms-3 mt-3 d-block">
-                                <span>Подробнее</span> <i class="bi bi-arrow-right"></i>
-                            </a>
-                        </div>
+                            <span class="opacity-75 text-xs">Wi-Fi Роутер</span>
+                            <span class="text-2xs status-true px-2 rounded-5 w-fit-content my-2">В наличии</span>
+                            <span class="fw-bold text-xs">479 000 сум</span>
+                        </a>
                     </div>
                 </div>
-                <a href="#" class="text-sm d-block text-center w-fit-content mx-auto my-5">Показать еще</a>
             </div>
         </section>
     </main>
@@ -173,7 +225,7 @@
                 </div>
                 <div class="col-lg-2">
                     <div class="w-100">
-                        <p class="text-corp-2 text-uppercase fw-bold text-sm">
+                        <p class="text-corp text-uppercase fw-bold text-sm">
                             ССЫЛКИ
                         </p>
                         <ul class="list-unstyled text-xs fw-light mb-0 ">
@@ -207,7 +259,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="w-100">
-                        <p class="text-corp-2 text-uppercase fw-bold text-sm">
+                        <p class="text-corp text-uppercase fw-bold text-sm">
                             УСЛУГИ
                         </p>
                         <ul class="list-unstyled text-xs fw-light mb-0 ">
@@ -251,7 +303,7 @@
                 </div>
                 <div class="col-xxl-3 col-lg-6">
                     <div class="w-100">
-                        <p class="text-corp-2 text-uppercase fw-bold text-sm">
+                        <p class="text-corp text-uppercase fw-bold text-sm">
                             КОНТАКТЫ
                         </p>
                         <ul class="list-unstyled text-xs text-dirt-2 fw-medium mb-0">
